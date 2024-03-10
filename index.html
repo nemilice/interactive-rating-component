@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <script defer src="./src/app.js"></script>
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <main class="main-content">
+      <article class="card active">
+        <div class="card__icon-container">
+          <img
+            src="./images/icon-star.svg"
+            alt="star icon"
+            class="card__icon"
+          />
+        </div>
+        <h1 class="main-heading">How did we do?</h1>
+        <p class="card__text">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="card__ratings">
+          <button class="btn-circle">1</button
+          ><button class="btn-circle">2</button
+          ><button class="btn-circle">3</button
+          ><button class="btn-circle">4</button
+          ><button class="btn-circle">5</button>
+        </div>
+        <button class="btn btn--orange btn--submit">Submit</button>
+      </article>
+      <article class="card card--thanks">
+        <img
+          src="./images/illustration-thank-you.svg"
+          alt="illustration-thank-you"
+          class="card__illustration"
+        />
+        <button class="btn btn--grey">
+          You selected <span class="val"></span> out of 5
+        </button>
+        <h2 class="main-heading">Thank you!</h2>
+        <p class="card__text tac">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </article>
+    </main>
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+
+    <!-- Add rating here -->
+
+    <!-- Thank you state end -->
+  </body>
+</html>
